@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://growxcd.com/.well-known/*
+host: https://growxcd.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: No .well-known discovery documents are published; recorded for audit. No 200
+  responses, so no WellKnown scoring pointer is wired.

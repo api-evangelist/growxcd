@@ -1,8 +1,25 @@
 aid: growxcd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/growxcd.png
 name: GrowXCD
-description: 'GrowXCD is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'GrowXCD (GrowXCD Finance Private Limited) is an RBI-registered Non-Banking Financial
+  Company (NBFC) headquartered in Chennai, India, focused on accelerating business growth for the
+  small businesses and self-employed customers that form the backbone of India''s economy. Its
+  lending products include Grow Shubam small-ticket mortgage loans, Loan Against Property (LAP)
+  secured lending, and unsecured loans up to Rs 25 lakh with tenures of 12 to 60 months, delivered
+  through a minimal-documentation digital process with swift approvals and repayment via eMandate or
+  NACH auto-debit. GrowXCD is a portfolio company of Prosus Ventures. It publishes a consumer website
+  and statutory policy documents but does not currently expose a public developer portal, API, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/growxcd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Lending
+- NBFC
+- Financial Services
+- India
+- Loans
+- Mortgage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://growxcd.com
+- type: PrivacyPolicy
+  url: https://growxcd.com/privacy-and-policy.php
+- type: TermsOfService
+  url: https://growxcd.com/assets/Pdf/Terms-and-Conditions.pdf
+- type: Support
+  url: https://growxcd.com/contact
+- type: DomainSecurity
+  url: security/growxcd-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
