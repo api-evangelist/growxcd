@@ -46,7 +46,7 @@ tags:
 - Fintech
 - Lending
 - NBFC
-- Financial-Services
+- Financial Services
 - India
 - Loans
 - Mortgage
@@ -59,6 +59,7 @@ tags_raw:
 - India
 - Loans
 - Mortgage
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
